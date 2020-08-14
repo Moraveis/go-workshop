@@ -9,6 +9,9 @@ import (
 
 func main() {
 
+	// Getting value from pointer use the notation `*` before the identifier (process called dereference)
+	// i.e fmt.Println(*<val>).
+
 	// Declaring pointers
 	var count1 *int
 
